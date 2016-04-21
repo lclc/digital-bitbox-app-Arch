@@ -6,7 +6,7 @@ pkgdesc="A Qt based application for the Digital Bitbox hardware wallet."
 arch=('x86_64')
 url="https://digitalbitbox.com/"
 license=('MIT')
-depends=('hidapi' 'curl' 'libevent' 'avahi' 'qrencode' 'qt5-base' 'qt5-tools' 'qt5-websockets')
+depends=('hidapi' 'curl' 'avahi' 'qrencode' 'qt5-base' 'qt5-tools' 'qt5-websockets')
 #install=
 
 source=(https://github.com/digitalbitbox/dbb-app/archive/v$pkgver.tar.gz)
